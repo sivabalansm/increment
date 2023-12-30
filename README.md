@@ -1,5 +1,5 @@
 # Increment
-increment or decrement a file that contains a singular number by a certain amount
+Increment or decrement a file that contains a singular number by a certain amount.
 
 # Why?
 Some Linux environment use files with a single number to denote a setting.
@@ -13,7 +13,7 @@ cd increment
 make
 ```
 
-Test if the the build was successful
+After build, test if the the build was successful
 ```
 ./bin/inc --help
 ```
@@ -37,6 +37,5 @@ for any corresponding short options.
 # Support
 This program only supports GNU/Linux compliant systems.
 Any POSIX compliant systems must have GNU libraries.
-    Dependency:
-        - arph.h: GNU argument parser
+The dependency is arph.h which is a GNU library for argument parsing.
 
