@@ -19,7 +19,7 @@ After build, test if the the build was successful
 ```
 ./bin/inc --help
 ```
-
+If it works, move the binary to your desired location :), preferably somewhere in $PATH
 
 # Usage
 ```
